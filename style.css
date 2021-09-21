@@ -137,3 +137,59 @@ form input[type=submit]:focus {
   color: #00b80c;
   background: #ccf0ce;
 }
+
+.hint-button {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  font-size: 18px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  line-height: 80px;
+  cursor: pointer;
+  transition: .2s;
+  z-index: 2;
+}
+
+.hint-button:after {
+  content: "Hint";
+  width: 100%;
+  height: 100%;
+  background: #3417d4;
+  position: absolute;
+  border-radius: 50%;
+  right: 0;
+}
+
+.hint-button:before {
+  content: "\"Voor dit soort spellen, wil je vaak op zoek naar de tabellen. Heb je de tabel? Zoek dan naar de URL.\"";
+  font-style: italic;
+  background: white;
+  height: 80px;
+  line-height: normal;
+  padding: 12px 0 0;
+  border-radius: 40px;
+  position: absolute;
+  color: black;
+  width: 80px;
+  right: 0;
+  z-index: -1;
+  display: block;
+  box-shadow: 0 15px 45px rgba(0, 0, 0, .25);
+  box-sizing: border-box;
+  transition: .4s;
+  overflow: hidden;
+}
+
+.hint-button:hover {
+  background: #2911ad;
+}
+
+.hint-button:hover:before {
+  width: 650px;
+  padding: 12px 105px 0 45px;
+}
