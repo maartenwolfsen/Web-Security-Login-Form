@@ -10,6 +10,9 @@ In deze opdracht gaan jullie proberen een Flag te vinden in de database van fict
 
 Hiervoor importeren jullie een VM van de webserver van Gilievno. Let op dat je ook hier de server op “bridged adapter” modus zet en het IP-adres achterhaalt. Het importbestand ontvangen jullie van de docent.
 
+>Gebruikersnaam VM: gilievno<br/>
+>Wachtwoord VM: Gilievno123
+
 Jullie krijgen toegang tot dit formulier en zijn op zoek naar een getal tussen de 0 en 10000. Dit getal vinden jullie ergens in de database.
 
 Via SQL injecties proberen jullie data te achterhalen uit de database. Jullie mogen twee hulplijnen inschakelen:
